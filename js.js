@@ -9,6 +9,13 @@ document.getElementById("cookie").addEventListener("click", function() {
     cookieClick(click = 1);
 });
 
+function upgradeclick(){
+	if(cookies !== 0) {
+		document.getElementById("cookie").addEventListener("click", function() {
+    cookieClick(click = 1);
+});
+	}
+};
 
 
 
